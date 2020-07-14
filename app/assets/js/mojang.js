@@ -17,39 +17,15 @@ const minecraftAgent = {
 const authpath = 'https://authserver.mojang.com'
 const statuses = [
     {
-        service: 'sessionserver.mojang.com',
-        status: 'grey',
-        name: 'Multiplayer Session Service',
-        essential: true
-    },
-    {
         service: 'authserver.mojang.com',
         status: 'grey',
-        name: 'Authentication Service',
+        name: 'Service d\'authentification',
         essential: true
     },
     {
         service: 'textures.minecraft.net',
         status: 'grey',
-        name: 'Minecraft Skins',
-        essential: false
-    },
-    {
-        service: 'api.mojang.com',
-        status: 'grey',
-        name: 'Public API',
-        essential: false
-    },
-    {
-        service: 'minecraft.net',
-        status: 'grey',
-        name: 'Minecraft.net',
-        essential: false
-    },
-    {
-        service: 'account.mojang.com',
-        status: 'grey',
-        name: 'Mojang Accounts Website',
+        name: 'Skins Minecraft',
         essential: false
     }
 ]

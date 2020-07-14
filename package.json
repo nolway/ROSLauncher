@@ -1,14 +1,10 @@
 {
-  "name": "helioslauncher",
-  "version": "1.7.0",
-  "productName": "Helios Launcher",
+  "name": "roslauncher",
+  "version": "1.0.0",
+  "productName": "Rise of Shinobi Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "author": "Nolway",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
-  "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
-  },
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -43,10 +39,7 @@
     "cross-env": "^7.0.2",
     "electron": "^9.1.0",
     "electron-builder": "^22.7.0",
+    "electron-packager": "^15.0.0",
     "eslint": "^7.4.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
   }
 }
